@@ -8,9 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, #1f4037, #99f2c8)',
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        forestGreen: '#2b2f33',
+        lightMint: '#e0f7f1',
+        warmGray: '#b1b1b1',
+        offWhite: '#f8f9fa',
+      },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '1024px'
       },
     },
   },
