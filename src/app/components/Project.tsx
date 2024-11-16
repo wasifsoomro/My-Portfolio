@@ -21,7 +21,7 @@ const Projectspage = () => {
       title: "Resume Builder",
       description: 
         "A dynamic resume builder allowing users to create and download a resume by entering personal details.",
-      image: "/resume.png",
+      image: "/resume-builder.webp",
       link: "https://resume-milestone5.vercel.app/",
     },
   ];
@@ -35,7 +35,7 @@ const Projectspage = () => {
             key={index}
             className="max-w-xs bg-opacity-20 bg-black shadow-lg rounded-lg overflow-hidden hover:scale-105 transform transition duration-300m "
           >
-            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+            <img src={project.image} alt={project.title} className="w-full h-60 p-4" />
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2 text-[#e0e0e0]">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>

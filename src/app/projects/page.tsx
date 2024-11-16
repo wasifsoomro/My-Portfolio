@@ -21,14 +21,14 @@ const projects: Project[] = [
     title: "Banking System",
     description: 
       "A Node.js application simulating essential banking functionalities, built to demonstrate backend and API management skills.",
-    image: "/bank System.png",
+    image: "/banking-system.webp",
     link: "https://github.com/wasifsoomro/Bank-System.git",
   },
   {
     title: "Quiz Application",
     description: 
       "An interactive quiz application developed with Node.js and TypeScript, highlighting backend logic and TypeScript usage.",
-    image: "/quiz-app.png",
+    image: "/quiz-application.webp",
     link: "https://github.com/wasifsoomro/quiz-app-.git",
   },
   {
@@ -42,7 +42,7 @@ const projects: Project[] = [
     title: "Resume Builder",
     description: 
       "A dynamic resume builder allowing users to create and download a resume by entering personal details.",
-    image: "/resume.png",
+    image: "/resume-builder.webp",
     link: "https://resume-milestone5.vercel.app/",
   },
   {
@@ -56,7 +56,7 @@ const projects: Project[] = [
     title: "Pro ATM Simulation",
     description: 
       "A detailed ATM simulation project demonstrating my skills in TypeScript, focusing on transaction management and user interface.",
-    image: "/atm.png",
+    image: "/atm-machine.webp",
     link: "https://github.com/wasifsoomro/ATM-Project.git",
   },
   {
@@ -82,7 +82,7 @@ const ProjectsPage: React.FC = () => {
             <img 
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover"
+              className="w-full h-60 p-4"
             />
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
